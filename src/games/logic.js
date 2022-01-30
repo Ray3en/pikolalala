@@ -55,7 +55,7 @@ function Logic(props){
   preset()
 
   return (
-    <div className="main">
+    <div className="">
       <Start todo = {todo}></Start>
     </div>
   )

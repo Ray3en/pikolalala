@@ -1,29 +1,7 @@
 * {
   margin: auto;
-  background-color: rgb(119, 3, 119);
 }
 
-
-
-.main {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
-  font: 1.4em fantasy;
-  color:rgb(184, 91, 198);
-  text-align: center;
-}
-
-.text-field__input {
-  font: 1.4em fantasy;
-  color:rgb(184, 91, 198);
-  background-color: rgb(142, 31, 170);
-  border-color: #793030;
-  outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
-}
 
 .button {
   margin-top: 15px;
@@ -38,7 +16,7 @@
   background-color: #911bc0;
   border: none;
   border-radius: 50px;
-  font: 1em fantasy;
+  font: 1em cursive;
   box-shadow: 0 9px rgb(98, 16, 122);
 }
 
@@ -50,21 +28,61 @@
   transform: translateY(4px);
 }
 .select {
-  font: 0.8em fantasy;
-  color: rgb(169, 169, 169)
+  font: 0.8em cursive;
+  color: rgb(169, 169, 169);
+  background-color: purple;
 }
 
 .input {
   border-radius: 10px;
-  font: 1.2em fantasy;
+  font: 1.2em cursive;
   color:rgb(0, 0, 0);
   margin-top: 10px;
+  width: 60%;
   margin-bottom: 10px;
-  padding: 0;
   background: #911baf;
   border-color: rgb(51, 47, 47);
 }
 
 .div_forms {
   margin-top: 10px;
+}
+
+.cards{
+  position: absolute;
+  /* ширина и высота 2 блока в % */
+  height: 70%;
+  width: 80%;
+  /* Значения определяются в зависимости от его размера в % */
+  left: 4%; /* (100% - width) / 2 */
+  top: 10%;  /* (100% - height) / 2 */
+  font: 2em cursive;
+  color:rgb(184, 91, 198);
+  padding-top: 20px;
+  text-align: center;
+  background-color: aqua;
+  padding: 4%;
+  border: 4mm ridge rgba(0, 0, 0, 0.6);
+  border-radius: 60px;
+}
+
+.card{
+  padding-top: 70px;
+}
+
+.buttonp{
+  padding-top: 180px;
+}
+
+.main {
+  position: absolute;
+  /* ширина и высота 2 блока в % */
+  height: 80%;
+  width: 80%;
+  /* Значения определяются в зависимости от его размера в % */
+  left: 10%; /* (100% - width) / 2 */
+  top: 25%;  /* (100% - height) / 2 */
+  font: 1.4em cursive;
+  color:rgb(184, 91, 198);
+  text-align: center;
 }

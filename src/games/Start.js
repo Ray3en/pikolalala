@@ -23,20 +23,24 @@ function Start(props){
 
   function endgame(){
     return(
-      <div className="main"> 
+      <div>
+        <div className="cards">
+        <p>
         Игра закончена!
+        </p> 
+        </div> 
       </div>
     )
   }
 
   
   return (
-    <div>
-      <div className = 'div_forms'>
-      <p>{cards}</p>
-      </div>
+      <div className = 'cards'>
+      <p className="card">{cards}</p>
+      <div className="buttonp">
       <button className="button" onClick={nextCard}>Выполнено!</button>
-    </div>
+      </div>
+      </div>
   )
 }
 
