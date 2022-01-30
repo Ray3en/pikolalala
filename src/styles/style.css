@@ -1,0 +1,70 @@
+* {
+  margin: auto;
+  background-color: rgb(119, 3, 119);
+}
+
+
+
+.main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  font: 1.4em fantasy;
+  color:rgb(184, 91, 198);
+  text-align: center;
+}
+
+.text-field__input {
+  font: 1.4em fantasy;
+  color:rgb(184, 91, 198);
+  background-color: rgb(142, 31, 170);
+  border-color: #793030;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+}
+
+.button {
+  margin-top: 15px;
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 18px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: rgb(143, 137, 137);
+  background-color: #911bc0;
+  border: none;
+  border-radius: 50px;
+  font: 1em fantasy;
+  box-shadow: 0 9px rgb(98, 16, 122);
+}
+
+.button:hover {background-color: #3e8e41; color: #fff;}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.select {
+  font: 0.8em fantasy;
+  color: rgb(169, 169, 169)
+}
+
+.input {
+  border-radius: 10px;
+  font: 1.2em fantasy;
+  color:rgb(0, 0, 0);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 0;
+  background: #911baf;
+  border-color: rgb(51, 47, 47);
+}
+
+.div_forms {
+  margin-top: 10px;
+}
